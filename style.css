@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:wght@400;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'EB Garamond', serif;
+    transition: all 0.4s ease-in-out;
+}
+.overlay{
+    color: red;
+}
+.post-entry-1 img{
+    width: 350px !important;
+    height: 300px !important;
+}
+/* .width{
+    width: 33.33% !important;
+} */
+.photo img{
+    width: 50px;
+    border-radius: 100%;
+}
+.post-border1{
+    border-left: 1px solid rgba(33, 37, 41, 0.75);
+    border-right: 1px solid rgba(33, 37, 41, 0.75);
+}
+.post-entry img{
+    width: 220px !important;
+    height: 200px !important;
+}
+.post-entry h5{
+    width: 13rem !important;
+}
+.number{
+    position: absolute;
+    z-index: -1;
+    font-size: 5rem;
+    left: -10px;
+    top: -20px;
+    font-weight: 700;
+    color: #6c757d44;
+}
+.trending-post li a{
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    list-style: none;
+    color: rgba(43, 39, 39, 0.626);
+}
+.para1{
+    color: rgba(43, 39, 39, 0.889);
+}
+.box{
+    border-bottom: 2px solid black;
+}
+.heading{
+    font-size: 2.5rem;
+    color: #000000;
+}
+.more a{
+    text-decoration: underline 2px solid black;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.926);
+    font-weight: 600;
+}
+.post-entry2 img{
+    width: 90%;
+    height: 500px;
+}
+.post-entry-1 img{
+    width: 200px !important;
+    height: 170px !important;
+}
+.border-bottom{
+    border-bottom: 50px solid #000000 !important;
+}
+.post-entry-2 img{
+    width: 500px !important;
+    height: 300px !important;
+}
+.text{
+    width: 500px !important;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.927);
+}
+.text-color{
+    color: rgba(255,255,255,0.7);
+}
+.more h6{
+    text-decoration: underline;
+    
+}
+.list-unstyled li{
+    cursor: pointer;
+    line-height: 1.8;
+}
+.footer-img{
+    width: 60px !important;
+    height: 60px !important;
+}
+.more h6:hover{
+    color: rgba(0, 255, 255, 0.596);
+    cursor: pointer;
+}
+.list-unstyled li:hover{
+    color: rgba(0, 255, 255, 0.596);
+    cursor: pointer;
+
+}
+.recent-post:hover{
+ color: rgba(0, 255, 255, 0.596);
+ cursor: pointer;
+}
+.end-footer{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.945);
+}
+.designed{
+    color: rgba(255,255,255,0.7);
+}
+.name:hover{
+    color: rgb(23, 54, 177);
+    cursor: pointer;
+}
